@@ -18,8 +18,6 @@ public class Flatten {
 			Arrays.sort(a);
 
 			for (int i = 0; i < dump; i++) {
-				if (a[99] == a[0])
-					break;
 				if (--a[99] - ++a[0] < 2)
 					break;
 				Arrays.sort(a);
