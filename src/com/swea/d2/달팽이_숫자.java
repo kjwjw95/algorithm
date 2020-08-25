@@ -75,7 +75,6 @@ class 달팽이_숫자 {
 				break;
 			}
 		}
-		// System.out.println(r+" , "+c+" cnt:"+cnt);
 		Solution(r, c, cnt);
 	}
 }
