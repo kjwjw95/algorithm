@@ -93,13 +93,14 @@ class Solution3 {
 		for (int i = 0; i < nodeinfo.length; i++) {
 			tree.addNode(nodes[i].num, nodes[i].level, nodes[i].loc);
 		}
-
+		String[] s = new String[10];
 		PreOrder(tree.root);
 		a=0;
 		PostOrder(tree.root);
 		answer[0]=preorder;
 		answer[1]=postorder;
 		return answer;
+		
 	}
 
 	private void PostOrder(Node root) {
