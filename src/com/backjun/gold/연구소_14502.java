@@ -52,13 +52,10 @@ public class 연구소_14502 {
 			int ans=0;
 			for(int i=0;i<N;i++) {
 				for(int j=0;j<M;j++) {
-					//System.out.print(tempmap[i][j]+ " ");
 					if(tempmap[i][j]==0)
 						ans++;
 				}
-				//System.out.println();
 			}
-			//System.out.println();
 			answer=Math.max(answer, ans);
 			return;
 		}
