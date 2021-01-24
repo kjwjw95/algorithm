@@ -28,14 +28,7 @@ public class 연구소_14502 {
 	}
 	public static void Combination(int cnt,int idxr,int idxc) {
 		if(cnt==wall) {
-//			for(int i=0;i<N;i++) {
-//				for(int j=0;j<M;j++) {
-//					if(sel[i][j])
-//						System.out.println(i+" "+j+" ");
-//				}
-//			}
-//			System.out.println();
-//			test++;
+
 			int[][] tempmap = new int[N][M];
 			boolean[][] visit = new boolean[N][M];
 			for(int i=0;i<N;i++) {
