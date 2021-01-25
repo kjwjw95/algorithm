@@ -72,7 +72,6 @@ public class 연구소_14502 {
 		row.add(r);
 		col.add(c);
 		visit[r][c]=true;
-		//System.out.println("start");
 		while(!row.isEmpty()) {
 			int rr= row.pop();
 			int cc= col.pop();
