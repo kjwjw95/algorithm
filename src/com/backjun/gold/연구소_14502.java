@@ -56,7 +56,6 @@ public class 연구소_14502 {
 			for(int j=idxc;j<M;j++) {
 				if(map[i][j]==0 && !sel[i][j]) {
 					sel[i][j]=true;
-			//		System.out.println(i+" : "+j);
 					map[i][j]=1;
 					Combination(cnt+1,(j+1==M)?i+1:i,(j+1==M)?0:j+1);
 					sel[i][j]=false;
