@@ -102,7 +102,7 @@ public class 주사위_굴리기_14499 {
 					dice.bottom=map[dice.x][dice.y];
 					map[dice.x][dice.y]=0;
 				}
-				System.out.println(dice.top);//+" x: "+dice.x+" y: "+dice.y);
+				System.out.println(dice.top);
 			}
 		}
 	}
