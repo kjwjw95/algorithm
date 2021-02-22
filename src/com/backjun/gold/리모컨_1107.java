@@ -28,7 +28,7 @@ public class 리모컨_1107 {
 	}
 	static public void greater() {
 		boolean isUp=false;
-		int temp_ans;
+		int temp_ans;//
 		if(isUp) {
 			
 		}
